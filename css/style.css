@@ -40,18 +40,35 @@ body{
 }
 
 .responsive iframe,
-.responsive svg {
+.logo svg {
     position: absolute;
     top: 0;
-    left: 15%;
-    width: 70%;
     height: 100%;
 }
 
-.responsive {
+.logo svg {
+    left: 25%;
+    width: 50%; 
+}
+
+.responsive iframe {
+    left: 20%;
+    width: 60%;
+}
+
+.responsive,
+.logo {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 40%;
     padding-top: 0;
     height: 0;
     overflow: hidden;
+}
+
+.responsive {
+    padding-bottom: 40%;
+}
+
+.logo {
+    padding-bottom: 30%;
 }
