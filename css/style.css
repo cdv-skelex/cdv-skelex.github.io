@@ -6,7 +6,7 @@ body{
 .row2 {
     text-align: center;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     padding: 2em 0;
 }
 
@@ -39,6 +39,19 @@ body{
     background-color: #414E73;
 }
 
-#logo{
-    height: 300px;
+.responsive iframe,
+.responsive svg {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+}
+
+.responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
 }
